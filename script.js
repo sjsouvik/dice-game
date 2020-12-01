@@ -59,7 +59,7 @@ function clickHandlerForDiceRolling()
 
         //2. Display the dice image depending on the dice roll
         diceImage.classList.remove("hidden"); //to do manipulation of element's css class content attribute, we don't need to mention "." before class name or "#" before id.
-        diceImage.src = `/img/dice-${dice}.png`; //to display the correct dice image as per the random dice value
+        diceImage.src = `./img/dice-${dice}.png`; //to display the correct dice image as per the random dice value
 
         //3. Add the dice's value to current score if the dice's value is > 1
         if(dice > 1)
